@@ -1,0 +1,8 @@
+{
+    "type": "coverage",
+    "data.test": "data/Jahn2007_experiment_1.csv",
+    "domains": ["spatial"],
+    "models": [
+        "models/verbalreasoningmodel.py"
+    ]
+}

@@ -125,6 +125,7 @@ def main(args):
 
     # Create metrics dictionary
     #(TODO: check if there is a good way of dynamically specify the visualization)
+
     default_list = [
         viz_plot.AccuracyVisualizer(),
         viz_plot.BoxplotVisualizer(),
@@ -194,8 +195,9 @@ def main(args):
         with codecs.open(html_filepath, 'w', 'utf-8') as html_out:
             html_out.write(html)
 
-        # Open HTML output in default browser
-        webbrowser.open('file://' + os.path.realpath(html_filepath))
+        # Open HTML output in default browser TODO:HIER WICHTIG COMMAND WEG UND SO
+        # webbrowser.open('file://' + os.path.realpath(html_filepath))
+
 
 def entry_point():
     """ Entry point for the CCOBRA executables.
