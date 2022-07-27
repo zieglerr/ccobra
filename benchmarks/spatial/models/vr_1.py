@@ -5,7 +5,7 @@ from VerbalReasonerHelpers import Queue
 
 # choose encoding the model is evaluated on
 Encoding = 1
-AlternativeSolution = False
+AlternativeSolution = True
 
 
 class VerbalReasoningModel(ccobra.CCobraModel):
